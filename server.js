@@ -14,8 +14,8 @@ app.use("/library", libraryRouter);
 app.use("/activities", activitiesRouter);
 app.use("/notes", notesRouter);
 
-app.listen(3000, () => {
-    console.log("Server started at port 3000")
+app.listen(8000, () => {
+    console.log("Server started at port 8000")
 })
 
 mongoose.connect('mongodb+srv://navreetkaur3011_db_user:navreet_2005@cluster0.rfdlazg.mongodb.net/movies2')
